@@ -27,7 +27,7 @@ SCREEN
 
 IRSSI
 
-irssi 				launch irssi
+irssi´				launch irssi
 /connect irc.oftc.net 		connect to server
 /connect irc.freenode.net 	connect to freenode server
 /join #facebookisdead 		join channel
