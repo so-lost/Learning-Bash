@@ -7,16 +7,15 @@ A beginners list of bash commands. Be alarmed, I am no expert.
 All commands below are things that worked for me and there's
 no guarantee it will work for you. This is pure exploration and
 learning for me, know your system before using this list.
-
+	
 	My system: MacBook Pro (Retina, 15-inch, Mid 2015)
-	   	   MacOS Sierra Version 10.12.6
-	   
-		   Using iTerm2 + ZSH
-
+	   	   MacOS Sierra Version 10.12.6	   
+		   Using iTerm2 + ZSH
+		   
 ····························································································································
 
 SCREEN
-```
+
 screen		create a new screen session
 screen -ls	list all the current sessions
 screen -X -S 	[session # you want to kill] quit kill entire session
@@ -371,3 +370,4 @@ make changes in your file, "index.html" etc.
 4. git push			upload changes
 
 ····························································································································
+```
