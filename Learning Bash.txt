@@ -31,7 +31,7 @@ Ctrl A c 		create new window
 /exec imgur-screenshot.sh
 allows you to take a screenshot and upload
 
-·························································
+····························································································································
 
 CORE COMMANDS
 
@@ -52,7 +52,7 @@ Ctrl C		kill whatever you are running
 Ctrl P 		move up 1 line
 Ctrl N 		move down 1 line
 
-·························································
+····························································································································
 
 NAVIGATION
 
@@ -64,7 +64,7 @@ pwd 			print working directory (show where u are)
 pushd		bookmark a directory
 popd			jump back to bookmark
 
-·························································
+····························································································································
 
 AUTOJUMP (EXT. PLUGIN)
 
@@ -73,7 +73,7 @@ autojump -s				show all saved dirs in database
 j <dir name>				jump to directory
 jo <dir name>			open directory in Finder
 
-·························································
+····························································································································
 
 GOOGLER
 
@@ -82,7 +82,7 @@ googler -h				brings up help
 filetype:mp3 adelele	  googles only mp3 named 		adele
 googler --colors bjdxxy google	fixes colors
 
-
+····························································································································
 
 
 LIST 
@@ -99,7 +99,7 @@ du -sh * | gsort -h
 list all files by size small to biggest
 tree -L [1,2] list files as tree with 1 or 2 dir deep
 
-·························································
+····························································································································
 
 FILE MANAGEMENT
 
@@ -112,7 +112,7 @@ touch	<name of file>		create new
 source							update that file
 brew info <package name>	show info about pkg path etc.
 
-·························································
+····························································································································
 
 BASH PROFILE CUSTOMIZATION
 
@@ -144,7 +144,7 @@ Background color codes:
 46=cyan
 47=white
 
-·························································
+····························································································································
 
 ITERM 2 IMGCAT & IMGLS (dont work in zsh)
 
@@ -153,7 +153,7 @@ imgls						list images as thumbnails
 imgls *png				list all pngs
 imgls *jpg				list all jpgs
 
-·························································
+····························································································································
 
 YOUTUBE-DL
 
@@ -161,7 +161,7 @@ youtube-dl -F <URL>		     	list all available formats
 youtube-dl -f <format> <URL>  download audio/video > YT
 example: youtube-dl -f 140   this downloads m4a audio
 
-·························································
+····························································································································
 
 WGET (dl files from webpage)
 
@@ -189,7 +189,7 @@ wget -e robots=off --wait 1
 
 
 
-·························································
+····························································································································
 
 ZSH TERMINAL FRAMEWORK
 
@@ -221,9 +221,13 @@ so home-brew installation works etc
 PATH to zsh
 /usr/local/share/zsh/
 
+····························································································································
+
 ZSH PLUGINS
 
 Auto Suggestions
+
+····························································································································
 
 ZSH ALIAS
 
@@ -237,7 +241,7 @@ alias .4='../../../../'
 alias o='open'
 alias sortsize='du -sh * | gsort -h’
 
-·························································
+····························································································································
 
 CONVERT (FFMPEG)
 
@@ -254,7 +258,7 @@ convert single vid
 
 ffmpeg -i youtube.flv -c:v libx264 filename.mp4
 
-·························································
+····························································································································
 
 LEARNING EMACS
 
@@ -303,7 +307,9 @@ C-s		search file, hit C-s again to go to next
 C-M(meta)-v 		scroll other window down
 C-k 			kill buffer (window)
 
-ADDING MODES
+····························································································································
+
+ADDING MODES (EMACS)
 
 M-x httpd-start		start web server
 impatient-mode		start impatient mode
@@ -311,12 +317,13 @@ rainbow-mode			start rainbow mode
 M-x emmet-mode		 start emmet mode
 FlyC
 
+····························································································································
 
 EMMET
 
 C-j		turn into tags/auto suggest etc.
 
-
+····························································································································
 
 (require 'web-beautify) ;; Not necessary if using ELPA package
     (eval-after-load 'js2-mode
@@ -334,14 +341,14 @@ C-j		turn into tags/auto suggest etc.
 (mmm-add-mode-ext-class 'html-mode "\\.php\\'" 'html-js)
 (mmm-add-mode-ext-class 'html-mode "\\.php\\'" ‘html-css)
 
-·························································
+····························································································································
 
 GIT
 
-git status		list info about GitHub repository
-git remote add origin https://github.com/username/myproject.git
-git remote -v			check online version of repo
-git push				update files, make changes
+git status					list info about GitHub repository
+git remote add origin 				https://github.com/username/myproject.git
+git remote -v					check online version of repo
+git push					update files, make changes
 git commit -m "Here is my commit message"
 
 
@@ -353,10 +360,13 @@ git config --global user.name "Your Name"
     git config --global user.email you@example.com
 
 
-om du vill göra ändring
+if you want to make a change
 
-första lägg till kod i index.html
-git add index.html for att uppdatera filen
-git commit -m "update x”
-git status
-git push
+make changes in your file, "index.html" etc.
+
+1. git add index.html 		to update that file
+2. git commit -m 		"update version 1.0”
+3. git status			check the current status
+4. git push			upload changes
+
+····························································································································
