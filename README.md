@@ -16,13 +16,13 @@ learning for me, know your system before using this list.
 ····························································································································
 
 SCREEN
-´´´
+```
 screen		create a new screen session
 screen -ls	list all the current sessions
 screen -X -S 	[session # you want to kill] quit kill entire session
 screen -rd	reconnect to a screen
 screen -r 	reconnect to screen 
-´´´
+
 ····························································································································
 
 IRSSI
