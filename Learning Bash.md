@@ -1,7 +1,7 @@
-# Learning-Bash
+# LEARNING BASH
 A beginners list of bash commands
 
-# UNIX TERMINAL // BASH
+# Unix Terminal // Bash
 
 SCREEN
 
