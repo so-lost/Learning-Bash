@@ -367,7 +367,7 @@ make changes in your file, "index.html" etc.
 
 1. git add index.html 		to update that file
 2. git commit -m 		"update version 1.0”
-3. git status			check the current status
+3. ´git status´			check the current status
 4. git push			upload changes
 
 ····························································································································
