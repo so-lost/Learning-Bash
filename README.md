@@ -5,7 +5,7 @@
 A beginners list of bash commands. Be alarmed, I am no expert.
 
 All commands below are things that worked for me and there's
-no guarantee it will work for you. This is pure exploration and
+no guarantee it will work for you. <br>This is pure exploration and
 learning for me, know your system before using this list.
 	
 	My system: MacBook Pro (Retina, 15-inch, Mid 2015)
