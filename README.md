@@ -11,12 +11,12 @@ learning for me, know your system before using this list.
 	My system: MacBook Pro (Retina, 15-inch, Mid 2015)
 	   	   MacOS Sierra Version 10.12.6	   
 		   Using iTerm2 + ZSH
-```		   
+		   
 ····························································································································
 
 SCREEN
 
-screen		create a new screen session
+`screen`		create a new screen session
 screen -ls	list all the current sessions
 screen -X -S 	[session # you want to kill] quit kill entire session
 screen -rd	reconnect to a screen
@@ -370,4 +370,4 @@ make changes in your file, "index.html" etc.
 4. git push			upload changes
 
 ····························································································································
-```
+
