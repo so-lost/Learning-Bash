@@ -375,3 +375,13 @@ make changes in your file, "index.html" etc.
 NODE.JS
 
 node -v		checks current version
+
+EXPRESS
+
+npm install express-generator -g	installs express generator
+express --view=pug myapp		generates basic app called 'myapp'
+cd myapp && npm install			cds and installs dependencies
+DEBUG=myapp:* npm start			run the app (only on mac & linux)
+set DEBUG=myapp:* & npm start		same for Windows
+
+
