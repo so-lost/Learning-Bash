@@ -379,7 +379,8 @@ node -v		checks current version
 EXPRESS
 
 npm install express-generator -g	installs express generator
-express --view=pug myapp		generates basic app called 'myapp'
+express --view=pug myapp		generates basic app called 'myapp' (with pug as init for views)
+express --view=ejs myapp		generates basic app called 'myapp' (with ejs as init for views)
 cd myapp && npm install			cds and installs dependencies
 DEBUG=myapp:* npm start			run the app (only on mac & linux)
 set DEBUG=myapp:* & npm start		same for Windows
