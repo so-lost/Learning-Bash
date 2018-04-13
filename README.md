@@ -188,9 +188,10 @@ brew install wget		install wget
 –k				convert html links to local files
 -r				recursive, for dl files from dir listing
 
-example: 	wget -r -np -k -A jpeg,jpg <URL>
-		wget -nd -r -P -A jpeg,jpg,bmp,gif,png
-		wget -r -A .jpg http://site.with.images/url/
+example: 			wget -r -np -k -A jpeg,jpg <URL>
+				wget -nd -r -P -A jpeg,jpg,bmp,gif,png
+				wget -r -A .jpg http://site.with.images/url/
+grab a file from website:	wget http://example.com/file.iso
 
 working example of dl images:
 wget -r -nd -A “*.jpg" <url>
