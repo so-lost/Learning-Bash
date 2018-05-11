@@ -66,6 +66,7 @@ Ctrl U		delete everything backwards to end of line
 Ctrl C		cancel whatever you are running
 Ctrl P 		move up 1 line
 Ctrl N 		move down 1 line
+Ctrl W 		This deletes the word before the cursor only
 
 ····························································································································
 
