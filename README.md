@@ -55,6 +55,8 @@ CORE COMMANDS
 clear		clears all text from window
 ;		put in between 2 commands to run both
 
+sudo shutdown -h +30	shutdown comp. in 30 min
+
 Ctrl A		go to beginning of the line you are typing
 Ctrl U		Undo last command
 Ctrl E		go to the end of the line you are typing
