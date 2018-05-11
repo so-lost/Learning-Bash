@@ -61,7 +61,7 @@ Ctrl E		go to the end of the line you are typing
 Ctrl L		clear the screen
 Ctrl K		delete everything forward to end of line
 Ctrl U		delete everything backwards to end of line
-Ctrl C		kill whatever you are running
+Ctrl C		cancel whatever you are running
 Ctrl P 		move up 1 line
 Ctrl N 		move down 1 line
 
@@ -265,6 +265,21 @@ for f in *.mov;do ffmpeg -i "$f" -c:v libx264 “${f%mov}mp4";done
 convert single vid
 
 ffmpeg -i youtube.flv -c:v libx264 filename.mp4
+
+merge video + audio together
+
+ffmpeg -i video.mp4 -i audio.wav \
+-c:v copy -c:a aac -strict experimental output.mp4
+
+merge video + audio without re-encoding audio
+
+ffmpeg -i video.mp4 -i audio.wav -c copy output.mkv
+
+replacing audio stream if it already exists
+
+ffmpeg -i video.mp4 -i audio.wav \
+-c:v copy -c:a aac -strict experimental \
+-map 0:v:0 -map 1:a:0 output.mp4
 
 ····························································································································
 
