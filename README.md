@@ -79,6 +79,16 @@ popd		jump back to bookmark
 
 ····························································································································
 
+TRASH FILES
+
+brew install trash		installs trash
+trash <filename> <filename>	send files to trash
+trash -l			list files in trash
+trash -lv			list files in trash with more info (size)
+trash -e			empty trash
+
+····························································································································
+
 AUTOJUMP (EXT. PLUGIN)
 
 brew install autojump		installs autojump
@@ -299,6 +309,7 @@ C-b     	Move backward a character
 
 M-f     	Move forward a word
 M-b     	Move backward a word
+M-backspace	kill previous word
 
 C-n     	Move to next line
 C-p     	Move to previous line
