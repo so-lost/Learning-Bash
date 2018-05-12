@@ -134,6 +134,8 @@ open *.JPG		open all jpgs in one directory with their default applications.
 mkdir				create directory
 touch	<name of file>		create new
 mv oldfilename newfilename	rename file
+mv <file> <directory>		move file to directory
+mv <file> <"directory">		move file to directory containing spaces
 source				update that file
 brew info <package name>	show info about pkg path etc.
 
