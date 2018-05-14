@@ -55,7 +55,7 @@ CORE COMMANDS
 clear		clears all text from window
 ;		put in between 2 commands to run both
 
-sudo shutdown -h +30	shutdown comp. in 30 min
+sudo shutdown -h +30	shutdown comp. in 30 sec
 
 Ctrl A		go to beginning of the line you are typing
 Ctrl U		Undo last command
@@ -130,6 +130,7 @@ FILE MANAGEMENT
 open			open single file
 open * 		 	open all the files in the current dir
 open *.JPG		open all jpgs in one directory with their default applications.
+mdfind <filename>	spotlight search
 
 mkdir				create directory
 touch	<name of file>		create new
