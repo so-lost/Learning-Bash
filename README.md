@@ -131,6 +131,8 @@ open			open single file
 open * 		 	open all the files in the current dir
 open *.JPG		open all jpgs in one directory with their default applications.
 mdfind <filename>	spotlight search
+df -h			display disk usage (default)
+dfc			display disk usage (homebrew)
 
 mkdir				create directory
 touch	<name of file>		create new
@@ -195,7 +197,7 @@ example: youtube-dl -f 140  		this downloads m4a audio
 WGET (dl files from webpage)
 
 brew install wget		install wget
--e robots.off			ignore robots.txt files (BE CAREFUL WITH THIS)
+-e robots.off			ignore robots.txt files (be careful)
 -e robots=off --wait 1		ignore/override robots and wait 1 sec in between	
 -nd 				no directories
 -A png,jpg			only accept this file extension
