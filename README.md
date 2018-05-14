@@ -145,6 +145,15 @@ brew info <package name>	show info about pkg path etc.
 
 ····························································································································
 
+DISK UTILITY
+
+diskutil list			list all drives
+diskutil unmount <path>		unmount disk
+diskutil unmountDisk <path>	unmount all partitions
+diskutil unmount /dev/disk2	example
+
+····························································································································
+
 BASH PROFILE CUSTOMIZATION
 
 nano ~/.bash_profile		opens and edit profile in nano
