@@ -131,6 +131,8 @@ open			open single file
 open * 		 	open all the files in the current dir
 open *.JPG		open all jpgs in one directory with their default applications.
 open -a preview ./	open current dir with app preview
+stat <name of file>	display details of the file
+file <name of file>	display format, size, color-profile (info about a file)
 mdfind <filename>	spotlight search
 df -h			display disk usage (default)
 dfc			display disk usage (homebrew)
