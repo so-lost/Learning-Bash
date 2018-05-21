@@ -25,6 +25,61 @@ screen Ctrl A -D	disconnect from screen
 
 ····························································································································
 
+TMUX
+
+in tmux use the prefix 'ctrl-b' in front of every command
+
+CORE COMMANDS
+
+tmux				start new
+tmux new -s myname		start new with name
+tmux a  #  (or at, or attach)	attach
+tmux a -t myname		attach to named
+tmux ls				list sessions
+tmux kill-session -t myname	kill session name
+
+killall tmux sessions
+tmux ls | grep : | cut -d. -f1 | awk '{print substr($1, 0, length($1)-1)}' | xargs kill
+
+SESSIONS
+
+s  	list sessions
+$  	name session
+
+WINDOWS (tabs)
+
+c  	create window
+w  	list windows
+n  	next window
+p  	previous window
+f  	find window
+,  	name window
+& 	kill window
+
+PANES (splits)
+
+%  	vertical split
+"  	horizontal split
+o 	swap panes
+q	show pane numbers
+x	kill pane
++  	break pane into window (e.g. to select text by mouse to copy)
+-  	restore pane from window
+⍽  		space - toggle between layouts
+<prefix> q 	(Show pane numbers, when the numbers show up type the key to goto that pane)
+<prefix> { 	(Move the current pane left)
+<prefix> } 	(Move the current pane right)
+<prefix> z 	toggle pane zoom
+
+MISC
+
+d  detach
+t  big clock
+?  list shortcuts
+:  prompt
+
+····························································································································
+
 IRSSI
 
 irssi				launch irssi
