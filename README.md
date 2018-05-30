@@ -346,7 +346,8 @@ convert <filepath>.jpg <filepath>.png
 command for batch converting movies this case (mov->mp4):
 (need to cd to right directory first)
 
-for f in *.mov;do ffmpeg -i "$f" -c:v libx264 “${f%mov}mp4";done
+for i in *.mov; do ffmpeg -i "$i" "${i%.*}.mp4"; done
+
 
 convert single vid
 
