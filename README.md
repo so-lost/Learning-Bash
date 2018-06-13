@@ -83,10 +83,13 @@ t  big clock
 IRSSI
 
 irssi				launch irssi
+irssi -n test123		change nickname
 /connect irc.oftc.net 		connect to server
 /connect irc.freenode.net 	connect to freenode server
+/server irc.snoonet.org		connect to Reddit
 /join #facebookisdead 		join channel
 /who				list users
+/whois				display userinfo
 
 highlight nickname by writing name in front, ex: zuyos: “string of text”
 
