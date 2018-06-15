@@ -110,8 +110,6 @@ SCRIPTS
 
 autorun scripts by putting them into ~/.irssi/scripts/autorun/
 
-
-
 ····························································································································
 
 CORE COMMANDS
