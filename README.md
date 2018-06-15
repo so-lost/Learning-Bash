@@ -92,8 +92,8 @@ irssi -n test123		change nickname
 /whois				display userinfo
 /wc				close window
 /save				save irssi settings after customized
-/set user_name NickHere		set username
-/set real_name RealNameHere	set realname
+/SET user_name NickHere		set username
+/SET real_name RealNameHere	set realname
 
 highlight nickname by writing name in front, ex: zuyos: “string of text”
 
@@ -105,6 +105,12 @@ Ctrl A c 		create new window
 
 /exec imgur-screenshot.sh
 allows you to take a screenshot and upload
+
+SCRIPTS
+
+autorun scripts by putting them into ~/.irssi/scripts/autorun/
+
+
 
 ····························································································································
 
