@@ -90,6 +90,10 @@ irssi -n test123		change nickname
 /join #facebookisdead 		join channel
 /who				list users
 /whois				display userinfo
+/wc				close window
+/save				save irssi settings after customized
+/set user_name NickHere		set username
+/set real_name RealNameHere	set realname
 
 highlight nickname by writing name in front, ex: zuyos: “string of text”
 
