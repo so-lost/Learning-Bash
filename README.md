@@ -356,6 +356,10 @@ to convert jpg to png go to dir with file, write:
 
 convert <filepath>.jpg <filepath>.png
 
+batch convert entire folder (converting tifs to jpg):
+
+mogrify -format jpg ./*.tif
+
 to convert all files with same filetype write:
 
 convert *.tif newNameGoesHere.jpg
