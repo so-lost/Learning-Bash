@@ -356,6 +356,10 @@ to convert jpg to png go to dir with file, write:
 
 convert <filepath>.jpg <filepath>.png
 
+to convert all files with same filetype write:
+
+convert *.tif newNameGoesHere.jpg
+
 command for batch converting movies this case (mov->mp4):
 (need to cd to right directory first)
 
