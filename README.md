@@ -105,17 +105,18 @@ killall tmux sessions <br>
 | `/SET real_name RealNameHere` | set realname |
 | ```/IGNORE * QUITS PARTS JOINS NICKS``` | ignores users quits/joins etc. |
 
-
 highlight nickname by writing name in front, ex: zuyos: “string of text”
 
-Alt -1/2/3/4		switch windows
-Ctrl A ?		show all key binds
-Ctrl A 			switch windows
-Ctrl A c 		create new window
-/exec  			executes a command within irssi
+| Key/Command   | Description   | 
+| ------------- | ------------- |
+| Alt -1/2/3/4 | switch windows |
+| Ctrl A ? | show all key binds |
+| Ctrl A | switch windows |
+| Ctrl A c | create new window |
+| /exec | executes a command within irssi |
 
-/exec imgur-screenshot.sh
-allows you to take a screenshot and upload
+allows you to take a screenshot and upload <br>
+`/exec imgur-screenshot.sh`
 
 SCRIPTS
 
