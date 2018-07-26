@@ -132,7 +132,6 @@ autorun scripts by putting them into ~/.irssi/scripts/autorun/
 | ; |		put in between 2 commands to run both |
 | `shutdown -h +30` | shutdown comp. in 30 min |
 | `poweroff` | shutdown |
-
 | Ctrl A |		go to beginning of the line you are typing |
 | Ctrl U |		Undo last command |
 | Ctrl E |		go to the end of the line you are typing |
@@ -146,21 +145,25 @@ autorun scripts by putting them into ~/.irssi/scripts/autorun/
 
 ## NAVIGATION
 
-cd 		change directory
-cd .. 		move up one directory
-cd - 		move to (previous) directory
-cd ../..	move up two directory
-pwd 		print working directory (show where u are)
-pushd		bookmark a directory
-popd		jump back to bookmark
+| Key/Command   | Description   | 
+| ------------- | ------------- |
+| cd | 		| change directory |
+| cd .. | 	| move up one directory |
+| cd - | 	| move to (previous) directory |
+| cd ../.. |	| move up two directory |
+| pwd | 	| print working directory (show where u are) |
+| pushd |	| bookmark a directory |
+| popd |	| jump back to bookmark |
 
 ## TRASH FILES
 
-brew install trash		installs trash
-trash <filename> <filename>	send files to trash
-trash -l			list files in trash
-trash -lv			list files in trash with more info (size)
-trash -e			empty trash
+| Key/Command   | Description   | 
+| ------------- | ------------- |
+| brew install trash |		installs trash |
+| trash <filename> <filename> |	send files to trash |
+| trash -l |			list files in trash |
+| trash -lv |			list files in trash with more info (size) |
+| trash -e |			empty trash |
 
 AUTOJUMP (EXT. PLUGIN)
 
