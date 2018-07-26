@@ -11,19 +11,16 @@ learning for me, know your system before using this list.
 &nbsp;&nbsp;&nbsp;My system: MacBook Pro (Retina, 15-inch, Mid 2015)<br>
 &nbsp;&nbsp;&nbsp;MacOS Sierra Version 10.12.6 Using iTerm2 + ZSH
 
+### SCREEN
+
 | Key/Command   | Description   | 
 | ------------- |:-------------:| 
-| col 3 is      | right-alignedsadsadsadsasadsdasdadsa | 
+| ``` screen ```      | create a new screen session | 
 | col 2 is      | centered      | 
 | zebra stripes | are neat      | 
 
+ <br>
 
-
-
-### SCREEN
-
-create a new screen session <br>
-``` screen ```
 list all the current sessions <br>
 ```screen -ls```
 [session # you want to kill] quit kill entire session <br>
