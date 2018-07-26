@@ -173,6 +173,7 @@ AUTOJUMP (EXT. PLUGIN)
 | autojump -s |			show all saved dirs in database |
 | j <dir name> |		jump to directory |
 | jo <dir name> |		open directory in Finder |
+| jo pwd |			open current directory in Finder |
 
 GOOGLER
 
