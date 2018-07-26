@@ -9,7 +9,7 @@ no guarantee it will work for you. <br>This is pure exploration and
 learning for me, know your system before using this list.
 	
 &nbsp;&nbsp;&nbsp;My system: MacBook Pro (Retina, 15-inch, Mid 2015)<br>
-&nbsp;&nbsp;&nbsp;MacOS Sierra Version 10.12.6 Using iTerm2 + ZSH
+&nbsp;&nbsp;&nbsp;MacOS Sierra Version 10.12.6 running iTerm2 + ZSH
 
 ### SCREEN
 
@@ -23,21 +23,9 @@ learning for me, know your system before using this list.
 | `screen Ctrl A -D` | disconnect from screen | 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 ### TMUX
 
-```
+
 
 in tmux use the prefix 'ctrl-b' in front of every command
 
@@ -90,7 +78,6 @@ t  big clock
 ?  list shortcuts
 :  prompt
 
-```
 
 ## IRSSI
 
