@@ -147,13 +147,13 @@ autorun scripts by putting them into ~/.irssi/scripts/autorun/
 
 | Key/Command   | Description   | 
 | ------------- | ------------- |
-| cd | 		| change directory |
-| cd .. | 	| move up one directory |
-| cd - | 	| move to (previous) directory |
-| cd ../.. |	| move up two directory |
-| pwd | 	| print working directory (show where u are) |
-| pushd |	| bookmark a directory |
-| popd |	| jump back to bookmark |
+| cd 		| 	 change directory |
+| cd .. 	| 	 move up one directory |
+| cd - 		| 	 move to (previous) directory |
+| cd ../.. 	|	 move up two directory |
+| pwd 		| 	 print working directory (show where u are) |
+| pushd 	|	 bookmark a directory |
+| popd 		|	 jump back to bookmark |
 
 ## TRASH FILES
 
