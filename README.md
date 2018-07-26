@@ -116,32 +116,34 @@ highlight nickname by writing name in front, ex: zuyos: “string of text”
 | /exec | executes a command within irssi |
 | /exec imgur-screenshot.sh | allows you to take a screenshot and upload
 
-SCRIPTS
+#### SCRIPTS
 
 autorun scripts by putting them into ~/.irssi/scripts/autorun/
 
-CORE COMMANDS
+## CORE COMMANDS
 
-⌘ shift i	switch to iTerm2 from any app (you can define your own keybind in the settings)
-⌘[1,2,3,4]	switch between terminal windows
-⌘ n		create new window
-⌘ w		close current window
-clear		clears all text from window
-;		put in between 2 commands to run both
+| Key/Command   | Description   | 
+| ------------- | ------------- |
+| ⌘ shift i |	switch to iTerm2 from any app (you can define your own keybind in the settings) |
+| ⌘[1,2,3,4] |	switch between terminal windows |
+| ⌘ n |		create new window |
+| ⌘ w |		close current window |
+| clear |		clears all text from window |
+| ; |		put in between 2 commands to run both |
 
-shutdown -h +30	shutdown comp. in 30 min
-poweroff	shutdown
+| shutdown -h +30 |	shutdown comp. in 30 min |
+| poweroff |	shutdown |
 
-Ctrl A		go to beginning of the line you are typing
-Ctrl U		Undo last command
-Ctrl E		go to the end of the line you are typing
-Ctrl L		clear the screen
-Ctrl K		delete everything forward to end of line
-Ctrl U		delete everything backwards to end of line
-Ctrl C		cancel whatever you are running
-Ctrl P 		move up 1 line
-Ctrl N 		move down 1 line
-Ctrl W 		This deletes the word before the cursor only
+| Ctrl A |		go to beginning of the line you are typing |
+| Ctrl U |		Undo last command |
+| Ctrl E |		go to the end of the line you are typing |
+| Ctrl L |		clear the screen |
+| Ctrl K |		delete everything forward to end of line |
+| Ctrl U |		delete everything backwards to end of line |
+| Ctrl C |		cancel whatever you are running |
+| Ctrl P | 		move up 1 line |
+| Ctrl N | 		move down 1 line |
+| Ctrl W | 		This deletes the word before the cursor only |
 
 ## NAVIGATION
 
