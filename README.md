@@ -130,7 +130,6 @@ autorun scripts by putting them into ~/.irssi/scripts/autorun/
 | ⌘ w |		close current window |
 | clear |	clears all text from window |
 | ; |		put in between 2 commands to run both |
-
 | `shutdown -h +30` | shutdown comp. in 30 min |
 | `poweroff` | shutdown |
 
