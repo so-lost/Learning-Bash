@@ -38,7 +38,7 @@ in tmux use the prefix 'ctrl-b' in front of every command
 | tmux ls | list sessions |
 | tmux kill-session -t myname |	kill session name |
 
-killall tmux sessions
+killall tmux sessions <br>
 `tmux ls | grep : | cut -d. -f1 | awk '{print substr($1, 0, length($1)-1)}' | xargs kill `
 
 #### SESSIONS
@@ -89,19 +89,21 @@ killall tmux sessions
 
 ## IRSSI
 
-irssi					launch irssi
-irssi -n test123			change nickname
-/connect irc.oftc.net 			connect to server
-/connect irc.freenode.net 		connect to freenode server
-/server irc.snoonet.org			connect to Reddit
-/join #facebookisdead 			join channel
-/who					list users
-/whois					display userinfo
-/wc					close window
-/save					save irssi settings after customized
-/SET user_name NickHere			set username
-/SET real_name RealNameHere		set realname
-/IGNORE * QUITS PARTS JOINS NICKS	ignores users quits/joins etc.
+| Key/Command   | Description   | 
+| ------------- | ------------- |
+| irssi | launch irssi |
+| irssi -n test123 | change nickname |
+| /connect irc.oftc.net | connect to server |
+| /connect irc.freenode.net | connect to freenode server |
+| /server irc.snoonet.org | connect to Reddit |
+| /join #facebookisdead | join channel |
+| /who | list users |
+| /whois | display userinfo |
+| /wc | close window |
+| /save | save irssi settings after customized |
+| /SET user_name NickHere | set username |
+| /SET real_name RealNameHere | set realname |
+| /IGNORE * QUITS PARTS JOINS NICKS | ignores users quits/joins etc. |
 
 
 highlight nickname by writing name in front, ex: zuyos: “string of text”
