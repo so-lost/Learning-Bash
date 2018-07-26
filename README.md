@@ -19,7 +19,7 @@ learning for me, know your system before using this list.
 `screen -ls` &ensp; &ensp; &ensp; &ensp; &ensp;	list all the current sessions	<br>
 `screen -X -S` &ensp; &ensp; &ensp; &ensp; &ensp; 	[session # you want to kill] quit kill entire session	<br>
 `screen -rd` &ensp; &ensp; &ensp; &ensp; &ensp; 		reconnect to a screen	<br>
-`screen -r` &ensp; &ensp; &ensp; &ensp; &ensp; 	reconnect to screen	<br>
+`screen -r` &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; 	reconnect to screen	<br>
 `screen Ctrl A -D` &ensp; &ensp; &ensp; &ensp; &ensp;  disconnect from screen	<br>
 
 
