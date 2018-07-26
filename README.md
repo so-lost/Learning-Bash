@@ -15,7 +15,7 @@ learning for me, know your system before using this list.
 ### SCREEN
 
 
-`screen`&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;		create a new screen session	<br>
+`screen`&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;		create a new screen session	<br>
 `screen -ls`&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;	list all the current sessions	<br>
 `screen -X -S`&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 	[session # you want to kill] quit kill entire session	<br>
 `screen -rd`&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;	reconnect to a screen	<br>
