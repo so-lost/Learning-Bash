@@ -114,9 +114,7 @@ highlight nickname by writing name in front, ex: zuyos: “string of text”
 | Ctrl A | switch windows |
 | Ctrl A c | create new window |
 | /exec | executes a command within irssi |
-
-allows you to take a screenshot and upload <br>
-`/exec imgur-screenshot.sh`
+| /exec imgur-screenshot.sh | allows you to take a screenshot and upload
 
 SCRIPTS
 
