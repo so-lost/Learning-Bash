@@ -26,6 +26,8 @@ screen Ctrl A -D	disconnect from screen
 
 ### TMUX
 
+```
+
 in tmux use the prefix 'ctrl-b' in front of every command
 
 #### CORE COMMANDS
@@ -76,6 +78,8 @@ d  detach
 t  big clock
 ?  list shortcuts
 :  prompt
+
+```
 
 ## IRSSI
 
