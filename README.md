@@ -38,7 +38,7 @@ in tmux use the prefix 'ctrl-b' in front of every command
 | tmux ls | list sessions |
 | tmux kill-session -t myname |	kill session name |
 
-killall tmux sessions
+killall tmux sessions<br>
 `tmux ls | grep : | cut -d. -f1 | awk '{print substr($1, 0, length($1)-1)}' | xargs kill `
 
 #### SESSIONS
