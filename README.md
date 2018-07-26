@@ -14,7 +14,7 @@ learning for me, know your system before using this list.
 ### SCREEN
 
 | Key/Command   | Description   | 
-| ------------- |:-------------:| 
+| ------------- | ------------- | 
 | ``` screen ```| create a new screen session | 
 | ```screen -ls```| list all the current sessions | 
 | ```screen -X -S``` | [session # you want to kill] quit kill entire session | 
