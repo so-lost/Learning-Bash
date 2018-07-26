@@ -11,6 +11,7 @@ learning for me, know your system before using this list.
 	My system: MacBook Pro (Retina, 15-inch, Mid 2015)
 	   	   MacOS Sierra Version 10.12.6	   
 		   Using iTerm2 + ZSH
+		   
 ```    
 ····························································································································
 
@@ -24,6 +25,8 @@ screen -r 		reconnect to screen
 screen Ctrl A -D	disconnect from screen
 
 ····························································································································
+
+```
 
 TMUX
 
