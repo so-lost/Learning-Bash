@@ -9,9 +9,9 @@ no guarantee it will work for you. <br>This is pure exploration and
 learning for me, know your system before using this list.
 	
 My system: MacBook Pro (Retina, 15-inch, Mid 2015)
-MacOS Sierra Version 10.12.6	   
-Using iTerm2 + ZSH
-		   
+MacOS Sierra Version 10.12.6 Using iTerm2 + ZSH
+
+	
 ```    
 ····························································································································
 
