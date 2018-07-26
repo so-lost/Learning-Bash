@@ -128,11 +128,11 @@ autorun scripts by putting them into ~/.irssi/scripts/autorun/
 | ⌘[1,2,3,4] |	switch between terminal windows |
 | ⌘ n |		create new window |
 | ⌘ w |		close current window |
-| clear |		clears all text from window |
+| clear |	clears all text from window |
 | ; |		put in between 2 commands to run both |
 
-| shutdown -h +30 |	shutdown comp. in 30 min |
-| poweroff |	shutdown |
+| `shutdown -h +30` | shutdown comp. in 30 min |
+| `poweroff` | shutdown |
 
 | Ctrl A |		go to beginning of the line you are typing |
 | Ctrl U |		Undo last command |
