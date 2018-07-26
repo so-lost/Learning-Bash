@@ -15,12 +15,12 @@ learning for me, know your system before using this list.
 ### SCREEN
 
 
-`screen`	&nbsp;&nbsp;&nbsp;	create a new screen session	<br>
-`screen -ls`	&nbsp;&nbsp;&nbsp;	list all the current sessions	<br>
-`screen -X -S`	&nbsp;&nbsp;&nbsp; 	[session # you want to kill] quit kill entire session	<br>
-`screen -rd`	&nbsp;&nbsp;&nbsp;	reconnect to a screen	<br>
-`screen -r`	&nbsp;&nbsp;&nbsp;	reconnect to screen	<br>
-`screen Ctrl A -D`  &nbsp;&nbsp;&nbsp;	disconnect from screen	<br>
+`screen`	&lt;p&gt;	create a new screen session	<br>
+`screen -ls`	&lt;p&gt;	list all the current sessions	<br>
+`screen -X -S`	&lt;p&gt; 	[session # you want to kill] quit kill entire session	<br>
+`screen -rd`	&lt;p&gt;	reconnect to a screen	<br>
+`screen -r`	&lt;p&gt;	reconnect to screen	<br>
+`screen Ctrl A -D`  &lt;p&gt;	disconnect from screen	<br>
 
 
 
