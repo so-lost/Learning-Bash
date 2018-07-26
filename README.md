@@ -62,6 +62,8 @@ killall tmux sessions<br>
 
 #### PANES (splits)
 
+| Key/Command   | Description   | 
+| ------------- | ------------- |
 | % | vertical split |
 | " | horizontal split |
 | o | swap panes |
