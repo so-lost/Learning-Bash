@@ -15,7 +15,7 @@ learning for me, know your system before using this list.
 ### SCREEN
 
 create a new screen session <br>
-```screen```
+``` screen ```
 list all the current sessions <br>
 ```screen -ls```
 [session # you want to kill] quit kill entire session <br>
