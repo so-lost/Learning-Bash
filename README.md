@@ -43,8 +43,10 @@ killall tmux sessions<br>
 
 #### SESSIONS
 
-s  	list sessions
-$  	name session
+| Key/Command   | Description   | 
+| ------------- | ------------- |
+| s | list sessions |
+| $ | name session |
 
 WINDOWS (tabs)
 
