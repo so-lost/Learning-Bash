@@ -15,7 +15,8 @@ MacOS Sierra Version 10.12.6 Using iTerm2 + ZSH
 ### SCREEN
 
 
-```screen```			create a new screen session
+`screen`			create a new screen session
+
 ```screen -ls```		list all the current sessions
 ```screen -X -S``` 		[session # you want to kill] quit kill entire session
 ```screen -rd```		reconnect to a screen
