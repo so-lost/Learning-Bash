@@ -16,11 +16,11 @@ learning for me, know your system before using this list.
 
 
 `screen` &emsp; &emsp; &emsp; &emsp;		create a new screen session	<br>
-`screen -ls` &nbsp; &nbsp; &nbsp; &nbsp;	list all the current sessions	<br>
-`screen -X -S`; &nbsp; &nbsp; &nbsp; &nbsp; 	[session # you want to kill] quit kill entire session	<br>
+`screen -ls` &emsp; &emsp; &emsp; &emsp;	list all the current sessions	<br>
+`screen -X -S` &emsp; &emsp; &emsp; &emsp; 	[session # you want to kill] quit kill entire session	<br>
 `screen -rd` &nbsp; &nbsp; &nbsp; &nbsp; 		reconnect to a screen	<br>
-`screen -r` &nbsp; &nbsp; &nbsp; &nbsp; 		reconnect to screen	<br>
-`screen Ctrl A -D` &nbsp; &nbsp; &nbsp; &nbsp;   	disconnect from screen	<br>
+`screen -r` &emsp; &emsp; &emsp; &emsp; 	reconnect to screen	<br>
+`screen Ctrl A -D` &emsp; &emsp; &emsp; &emsp;  disconnect from screen	<br>
 
 
 
