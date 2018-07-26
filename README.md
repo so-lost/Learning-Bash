@@ -8,19 +8,19 @@ All commands below are things that worked for me and there's
 no guarantee it will work for you. <br>This is pure exploration and
 learning for me, know your system before using this list.
 	
-My system: MacBook Pro (Retina, 15-inch, Mid 2015)
-MacOS Sierra Version 10.12.6 Using iTerm2 + ZSH
+&nbsp;&nbsp;&nbsp;My system: MacBook Pro (Retina, 15-inch, Mid 2015)<br>
+&nbsp;&nbsp;&nbsp;MacOS Sierra Version 10.12.6 Using iTerm2 + ZSH
 
 
 ### SCREEN
 
 
-`screen`			create a new screen session	<br>
-`screen -ls`			list all the current sessions	<br>
-`screen -X -S` 			[session # you want to kill] quit kill entire session	<br>
-`screen -rd`			reconnect to a screen	<br>
-`screen -r`			reconnect to screen	<br>
-`screen Ctrl A -D`		disconnect from screen	<br>
+`screen`	&nbsp;&nbsp;&nbsp;	create a new screen session	<br>
+`screen -ls`	&nbsp;&nbsp;&nbsp;	list all the current sessions	<br>
+`screen -X -S`	&nbsp;&nbsp;&nbsp; 	[session # you want to kill] quit kill entire session	<br>
+`screen -rd`	&nbsp;&nbsp;&nbsp;	reconnect to a screen	<br>
+`screen -r`	&nbsp;&nbsp;&nbsp;	reconnect to screen	<br>
+`screen Ctrl A -D`  &nbsp;&nbsp;&nbsp;	disconnect from screen	<br>
 
 
 
