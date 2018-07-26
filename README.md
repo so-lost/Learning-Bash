@@ -15,7 +15,7 @@ MacOS Sierra Version 10.12.6 Using iTerm2 + ZSH
   
 ····························································································································
 
-##SCREEN
+## SCREEN
 
 ```
 screen			create a new screen session
