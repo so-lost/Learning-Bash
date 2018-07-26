@@ -15,22 +15,24 @@ learning for me, know your system before using this list.
 
 | Key/Command   | Description   | 
 | ------------- |:-------------:| 
-| ``` screen ```      | create a new screen session | 
-| col 2 is      | centered      | 
-| zebra stripes | are neat      | 
+| ``` screen ```| create a new screen session | 
+| ```screen -ls```| list all the current sessions | 
+| ```screen -X -S``` | [session # you want to kill] quit kill entire session | 
+| `screen -r` | reconnect to screen | 
+| `screen -rd` | reconnect to a screen | 
+| `screen Ctrl A -D` | disconnect from screen | 
 
- <br>
 
-list all the current sessions <br>
-```screen -ls```
-[session # you want to kill] quit kill entire session <br>
-```screen -X -S```
-reconnect to a screen <br>
-`screen -rd` <br>
-reconnect to screen <br>
-`screen -r` <br>
-disconnect from screen <br>
-`screen Ctrl A -D` <br>
+
+
+
+
+
+
+
+
+
+
 
 
 ### TMUX
