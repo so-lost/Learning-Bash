@@ -15,7 +15,7 @@ MacOS Sierra Version 10.12.6 Using iTerm2 + ZSH
 ```    
 ····························································································································
 
-SCREEN
+##SCREEN
 
 screen			create a new screen session
 screen -ls		list all the current sessions
@@ -28,7 +28,7 @@ screen Ctrl A -D	disconnect from screen
 
 ```
 
-TMUX
+##TMUX
 
 in tmux use the prefix 'ctrl-b' in front of every command
 
