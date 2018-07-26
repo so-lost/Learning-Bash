@@ -167,11 +167,12 @@ autorun scripts by putting them into ~/.irssi/scripts/autorun/
 
 AUTOJUMP (EXT. PLUGIN)
 
-brew install autojump		installs autojump
-autojump -s			show all saved dirs in database
-j <dir name>			jump to directory
-jo <dir name>			open directory in Finder
-
+| Key/Command   | Description   | 
+| ------------- | ------------- |
+| brew install autojump |	installs autojump |
+| autojump -s |			show all saved dirs in database |
+| j <dir name> |		jump to directory |
+| jo <dir name> |		open directory in Finder |
 
 GOOGLER
 
