@@ -14,18 +14,18 @@ learning for me, know your system before using this list.
 
 ### SCREEN
 
-create a new screen session<br>
-`screen`
-list all the current sessions<br>
-`screen -ls` 
-[session # you want to kill] quit kill entire session<br>
-`screen -X -S`
-reconnect to a screen<br>
-`screen -rd`
-reconnect to screen<br>
-`screen -r`
-disconnect from screen<br>
-`screen Ctrl A -D`
+create a new screen session <br>
+`screen` <br>
+list all the current sessions <br>
+`screen -ls` <br> 
+[session # you want to kill] quit kill entire session <br>
+`screen -X -S` <br>
+reconnect to a screen <br>
+`screen -rd` <br>
+reconnect to screen <br>
+`screen -r` <br>
+disconnect from screen <br>
+`screen Ctrl A -D` <br>
 
 
 ### TMUX
