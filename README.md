@@ -24,10 +24,6 @@ screen Ctrl A -D	disconnect from screen
 
 ```
 
-····························································································································
-
-
-
 ### TMUX
 
 in tmux use the prefix 'ctrl-b' in front of every command
@@ -81,9 +77,7 @@ t  big clock
 ?  list shortcuts
 :  prompt
 
-····························································································································
-
-IRSSI
+## IRSSI
 
 irssi					launch irssi
 irssi -n test123			change nickname
@@ -115,8 +109,6 @@ SCRIPTS
 
 autorun scripts by putting them into ~/.irssi/scripts/autorun/
 
-····························································································································
-
 CORE COMMANDS
 
 ⌘ shift i	switch to iTerm2 from any app (you can define your own keybind in the settings)
@@ -140,9 +132,7 @@ Ctrl P 		move up 1 line
 Ctrl N 		move down 1 line
 Ctrl W 		This deletes the word before the cursor only
 
-····························································································································
-
-NAVIGATION
+## NAVIGATION
 
 cd 		change directory
 cd .. 		move up one directory
@@ -152,17 +142,13 @@ pwd 		print working directory (show where u are)
 pushd		bookmark a directory
 popd		jump back to bookmark
 
-····························································································································
-
-TRASH FILES
+## TRASH FILES
 
 brew install trash		installs trash
 trash <filename> <filename>	send files to trash
 trash -l			list files in trash
 trash -lv			list files in trash with more info (size)
 trash -e			empty trash
-
-····························································································································
 
 AUTOJUMP (EXT. PLUGIN)
 
@@ -171,7 +157,6 @@ autojump -s			show all saved dirs in database
 j <dir name>			jump to directory
 jo <dir name>			open directory in Finder
 
-····························································································································
 
 GOOGLER
 
@@ -180,9 +165,8 @@ googler -h				brings up help
 filetype:mp3 adelele	  		googles only mp3 named adele
 googler --colors bjdxxy google		fixes colors (im using dark solarized theme, gets hard to read)
 
-····························································································································
 
-LIST 
+## LIST 
 
 ls 			list files
 ls -S 			list files by size
@@ -195,9 +179,8 @@ du -sh			display entire size of dir
 du -sh * | gsort -h	list all files by size small to biggest
 tree -L [1,2] 		list files as tree with 1 or 2 dir deep
 
-····························································································································
 
-FILE MANAGEMENT
+## FILE MANAGEMENT
 
 open			open single file
 open * 		 	open all the files in the current dir
@@ -217,18 +200,15 @@ mv <file> <"directory">		move file to directory containing spaces
 source				update that file
 brew info <package name>	show info about pkg path etc.
 
-····························································································································
 
-DISK UTILITY
+## DISK UTILITY
 
 diskutil list			list all drives
 diskutil unmount <path>		unmount disk
 diskutil unmountDisk <path>	unmount all partitions
 diskutil unmount /dev/disk2	example
 
-····························································································································
-
-BASH PROFILE CUSTOMIZATION
+## BASH PROFILE CUSTOMIZATION
 
 nano ~/.bash_profile		opens and edit profile in nano
 nano ~/.bashrc			opens and edit bashrc in nano
@@ -259,7 +239,6 @@ Background color codes:
 46=cyan
 47=white
 
-····························································································································
 
 ITERM 2 IMGCAT & IMGLS (dont work in zsh)
 
@@ -268,15 +247,13 @@ imgls			list images as thumbnails
 imgls *png		list all pngs
 imgls *jpg		list all jpgs
 
-····························································································································
 
-YOUTUBE-DL
+## YOUTUBE-DL
 
 youtube-dl -F <URL>		     	list all available formats
 youtube-dl -f <format> <URL>  		download audio/video > YT
 example: youtube-dl -f 140  		this downloads m4a audio
 
-····························································································································
 
 WGET (dl files from webpage)
 
@@ -298,9 +275,8 @@ grab a file from website:	wget http://example.com/file.iso
 working example of dl images:
 wget -r -nd -A “*.jpg" <url>
 
-····························································································································
 
-ZSH TERMINAL FRAMEWORK
+## ZSH TERMINAL FRAMEWORK
 
 –source it on startup	
 
@@ -330,13 +306,11 @@ so home-brew installation works etc
 PATH to zsh
 /usr/local/share/zsh/
 
-····························································································································
 
-ZSH PLUGINS
+### ZSH PLUGINS
 
 Auto Suggestions
 
-····························································································································
 
 ZSH ALIAS
 
@@ -351,9 +325,7 @@ alias .4='../../../../'
 alias o='open'
 alias sortsize='du -sh * | gsort -h’
 
-····························································································································
-
-CONVERT (FFMPEG)
+## CONVERT (FFMPEG)
 
 to convert jpg to png go to dir with file, write:
 
@@ -392,9 +364,7 @@ ffmpeg -i video.mp4 -i audio.wav \
 -c:v copy -c:a aac -strict experimental \
 -map 0:v:0 -map 1:a:0 output.mp4
 
-····························································································································
-
-LEARNING EMACS
+## LEARNING EMACS
 
 M-x package-list-packages	install new packages to emacs
 C-x 	C-c			quit emacs session (logout)
@@ -442,9 +412,7 @@ C-s		search file, hit C-s again to go to next
 C-M(meta)-v 	scroll other window down
 C-k 		kill buffer (window)
 
-····························································································································
-
-ADDING MODES (EMACS)
+### ADDING MODES (EMACS)
 
 M-x httpd-start		start web server
 impatient-mode		start impatient mode
@@ -452,13 +420,12 @@ rainbow-mode		start rainbow mode
 M-x emmet-mode		start emmet mode
 FlyC
 
-····························································································································
 
 EMMET
 
 C-j			turn into tags/auto suggest etc.
 
-····························································································································
+
 
 (require 'web-beautify) ;; Not necessary if using ELPA package
     (eval-after-load 'js2-mode
@@ -476,9 +443,9 @@ C-j			turn into tags/auto suggest etc.
 (mmm-add-mode-ext-class 'html-mode "\\.php\\'" 'html-js)
 (mmm-add-mode-ext-class 'html-mode "\\.php\\'" ‘html-css)
 
-····························································································································
 
-GIT
+
+## GIT
 
 git status					list info about GitHub repository
 git remote add origin 				example: https://github.com/username/myproject.git
@@ -499,9 +466,8 @@ make changes in your file, "index.html" etc.
 3. ´git status´					check the current status
 4. git push					upload changes
 
-····························································································································
 
-NODE.JS
+## NODE.JS
 
 node -v		checks current version
 
