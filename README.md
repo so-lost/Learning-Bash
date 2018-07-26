@@ -91,19 +91,19 @@ killall tmux sessions <br>
 
 | Key/Command   | Description   | 
 | ------------- | ------------- |
-| irssi | launch irssi |
-| irssi -n test123 | change nickname |
-| /connect irc.oftc.net | connect to server |
-| /connect irc.freenode.net | connect to freenode server |
-| /server irc.snoonet.org | connect to Reddit |
-| /join #facebookisdead | join channel |
-| /who | list users |
-| /whois | display userinfo |
-| /wc | close window |
-| /save | save irssi settings after customized |
-| /SET user_name NickHere | set username |
-| /SET real_name RealNameHere | set realname |
-| /IGNORE * QUITS PARTS JOINS NICKS | ignores users quits/joins etc. |
+| `irssi | launch irssi |
+| `irssi -n test123` | change nickname |
+| `/connect irc.oftc.net` | connect to server |
+| `/connect irc.freenode.net` | connect to freenode server |
+| `/server irc.snoonet.org` | connect to Reddit |
+| `/join #facebookisdead` | join channel |
+| `/who` | list users |
+| `/whois` | display userinfo |
+| `/wc` | close window |
+| `/save` | save irssi settings after customized |
+| `/SET user_name NickHere` | set username |
+| `/SET real_name RealNameHere` | set realname |
+| ```/IGNORE * QUITS PARTS JOINS NICKS``` | ignores users quits/joins etc. |
 
 
 highlight nickname by writing name in front, ex: zuyos: “string of text”
