@@ -91,7 +91,7 @@ killall tmux sessions <br>
 
 | Key/Command   | Description   | 
 | ------------- | ------------- |
-| `irssi | launch irssi |
+| `irssi` | launch irssi |
 | `irssi -n test123` | change nickname |
 | `/connect irc.oftc.net` | connect to server |
 | `/connect irc.freenode.net` | connect to freenode server |
