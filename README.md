@@ -13,7 +13,7 @@ learning for me, know your system before using this list.
 
 | Key/Command   | Description   | 
 | ------------- |:-------------:| 
-| col 3 is      | right-aligned | 
+| col 3 is      | right-alignedsadsadsadsasadsdasdadsa | 
 | col 2 is      | centered      | 
 | zebra stripes | are neat      | 
 
