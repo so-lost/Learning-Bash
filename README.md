@@ -11,7 +11,7 @@ learning for me, know your system before using this list.
 &nbsp;&nbsp;&nbsp;My system: MacBook Pro (Retina, 15-inch, Mid 2015)<br>
 &nbsp;&nbsp;&nbsp;MacOS Sierra Version 10.12.6 Using iTerm2 + ZSH
 
-| Tables        | Are           | Cool  |
+| Key/Command        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
