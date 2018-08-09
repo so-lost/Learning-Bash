@@ -165,7 +165,7 @@ autorun scripts by putting them into ~/.irssi/scripts/autorun/
 | trash -lv |			list files in trash with more info (size) |
 | trash -e |			empty trash |
 
-AUTOJUMP (EXT. PLUGIN)
+## AUTOJUMP (EXT. PLUGIN)
 
 | Key/Command   | Description   | 
 | ------------- | ------------- |
@@ -175,114 +175,129 @@ AUTOJUMP (EXT. PLUGIN)
 | jo <dir name> |		open directory in Finder |
 | jo pwd |			open current directory in Finder |
 
-GOOGLER
+### GOOGLER
 
-googler hi				starts google and googles hi
-googler -h				brings up help
-filetype:mp3 adelele	  		googles only mp3 named adele
-googler --colors bjdxxy google		fixes colors (im using dark solarized theme, gets hard to read)
+| Key/Command   | Description   | 
+| ------------- | ------------- |
+| googler hi |				starts google and googles hi |
+| googler -h |				brings up help |
+| filetype:mp3 adelele |	  	googles only mp3 named adele |
+| googler --colors bjdxxy google |	fixes colors (im using dark solarized theme, gets hard to read) |
 
 
 ## LIST 
 
-ls 			list files
-ls -S 			list files by size
-ls -l 			list files details
-ls -lhS			list files by size small to biggest
-ls -R			list entire content of directory
-ls ..			list parent directory of folder
-du			display disk usage
-du -sh			display entire size of dir
-du -sh * | gsort -h	list all files by size small to biggest
-tree -L [1,2] 		list files as tree with 1 or 2 dir deep
+| Key/Command   | Description   | 
+| ------------- | ------------- |
+| ls 			| list files |
+| ls -S 		| list files by size |
+| ls -l 		| list files details |
+| ls -lhS		| list files by size small to biggest |
+| ls -R			| list entire content of directory |
+| ls ..			| list parent directory of folder |
+| du			| display disk usage |
+| du -sh		| display entire size of dir |
+| du -sh * | gsort -h	| list all files by size small to biggest |
+| tree -L [1,2] 	| list files as tree with 1 or 2 dir deep |
 
 
 ## FILE MANAGEMENT
 
-open			open single file
-open * 		 	open all the files in the current dir
-open *.JPG		open all jpgs in one directory with their default applications.
-open -a preview ./	open current dir with app preview
-stat <name of file>	display details of the file
-file <name of file>	display format, size, color-profile (info about a file)
-mdfind <filename>	spotlight search
-df -h			display disk usage (default)
-dfc			display disk usage (homebrew)
+| Key/Command   | Description   | 
+| ------------- | ------------- |
+| open			| open single file |
+| open * 		| open all the files in the current dir |
+| open *.JPG		| open all jpgs in one directory with their default applications. |
+| open -a preview ./	| open current dir with app preview |
+| stat <name of file>	| display details of the file |
+| file <name of file>	| display format, size, color-profile (info about a file) |
+| mdfind <filename>	| spotlight search |
+| df -h			| display disk usage (default) |
+| dfc			| display disk usage (homebrew) |
 
-mkdir				create directory
-touch	<name of file>		create new
-mv oldfilename newfilename	rename file
-mv <file> <directory>		move file to directory
-mv <file> <"directory">		move file to directory containing spaces
-source				update that file
-brew info <package name>	show info about pkg path etc.
+| mkdir				| create directory |
+| touch	<name of file>		| create new |
+| mv oldfilename newfilename	| rename file |
+| mv <file> <directory>		| move file to directory |
+| mv <file> <"directory">	| move file to directory containing spaces |
+| source			| update that file |
+| brew info <package name>	| show info about pkg path etc. |
 
 
 ## DISK UTILITY
 
-diskutil list			list all drives
-diskutil unmount <path>		unmount disk
-diskutil unmountDisk <path>	unmount all partitions
-diskutil unmount /dev/disk2	example
+| Key/Command   | Description   | 
+| ------------- | ------------- |
+| diskutil list			| list all drives |
+| diskutil unmount <path>	| unmount disk |
+| diskutil unmountDisk <path>	| unmount all partitions |
+| diskutil unmount /dev/disk2	| example |
 
 ## BASH PROFILE CUSTOMIZATION
 
-nano ~/.bash_profile		opens and edit profile in nano
-nano ~/.bashrc			opens and edit bashrc in nano
-nano ~/.dir_colors		open and customise file colors
-source “<path to file>”		source for instance .bashrc on start so all changes are in use
+| Key/Command   | Description   | 
+| ------------- | ------------- |
+| nano ~/.bash_profile		| opens and edit profile in nano |
+| nano ~/.bashrc		| opens and edit bashrc in nano |
+| nano ~/.dir_colors		| open and customise file colors |
+| source “<path to file>”	| ource for instance .bashrc on start so all changes are in use |
 
-COLOR CHANGES
+### COLOR CHANGES
+| Key/Command   | Description   | 
+| ------------- | ------------- |
+| Text color codes in dir_colors: |
 
-Text color codes in dir_colors:
+| 30=black | 
+| 31=red | 
+| 32=green | 
+| 33=yellow | 
+| 34=blue | 
+| 35=magenta | 
+| 36=cyan | 
+| 37=white | 
 
-30=black
-31=red
-32=green
-33=yellow
-34=blue
-35=magenta
-36=cyan
-37=white
+| Background color codes: | 
 
-Background color codes:
-
-40=black
-41=red
-42=green
-43=yellow
-44=blue
-45=magenta
-46=cyan
-47=white
+| 40=black | 
+| 41=red | 
+| 42=green | 
+| 43=yellow | 
+| 44=blue | 
+| 45=magenta | 
+| 46=cyan | 
+| 47=white | 
 
 
-ITERM 2 IMGCAT & IMGLS (dont work in zsh)
+## ITERM 2 IMGCAT & IMGLS
 
-imgcat <filename>	show image in terminal
-imgls			list images as thumbnails
-imgls *png		list all pngs
-imgls *jpg		list all jpgs
+| Key/Command   | Description   | 
+| ------------- | ------------- |
+| imgcat <filename>	| show image in terminal |
+| imgls			| list images as thumbnails |
+| imgls *png		| list all pngs |
+| imgls *jpg		| list all jpgs |
 
 
 ## YOUTUBE-DL
 
-youtube-dl -F <URL>		     	list all available formats
-youtube-dl -f <format> <URL>  		download audio/video > YT
-example: youtube-dl -f 140  		this downloads m4a audio
+| Key/Command   | Description   | 
+| ------------- | ------------- |
+| youtube-dl -F <URL>		     	| list all available formats |
+| youtube-dl -f <format> <URL>  	| download audio/video > YT |
+| example: youtube-dl -f 140  		| this downloads m4a audio |
 
 
-WGET (dl files from webpage)
+## WGET (dl files from webpage)
 
-brew install wget		install wget
--e robots.off			ignore robots.txt files (be careful)
--e robots=off --wait 1		ignore/override robots and wait 1 sec in between	
--nd 				no directories
--A png,jpg			only accept this file extension
--nc, —-no-clobber		skip dl if file exist
--np				dont follow links to parent dirs
-–k				convert html links to local files
--r				recursive, for dl files from dir listing
+| brew install wget		| install wget |
+| -e robots.off			| ignore robots.txt files (be careful) |
+| -e robots=off --wait 1	| ignore/override robots and wait 1 sec in between |	
+| -nd 				| no directories |
+| -A png,jpg			| only accept this file extension |
+| -nc, —-no-clobber		| skip dl if file exist |
+| -np				| dont follow links to parent dirs |
+| –k				| convert html links to local files |
+| -r				| recursive, for dl files from dir listing |
 
 example: 			wget -r -np -k -A jpeg,jpg <URL>
 				wget -nd -r -P -A jpeg,jpg,bmp,gif,png
@@ -463,38 +478,41 @@ C-j			turn into tags/auto suggest etc.
 
 
 ## GIT
+| Key/Command   | Description   | 
+| ------------- | ------------- |
+| git status					| list info about GitHub repository |
+| git remote add origin 			| example: https://github.com/username/myproject.git |
+| git remote -v					| check online version of repo |
+| git push					| update files, make changes |
+| git commit -m "Here is my commit message" |
+| git commit --amend —-reset-author |
+| git config --global --edit |
 
-git status					list info about GitHub repository
-git remote add origin 				example: https://github.com/username/myproject.git
-git remote -v					check online version of repo
-git push					update files, make changes
-git commit -m "Here is my commit message"
-git commit --amend —-reset-author
-git config --global --edit
+| git config --global user.name "Your Name" |
+| git config --global user.email you@example.com |
 
-git config --global user.name "Your Name"
-git config --global user.email you@example.com
+| Update a file in repository: |
+| make changes in your file, "index.html" etc. |
 
-Update a file in repository:
-make changes in your file, "index.html" etc.
-
-1. git add index.html 				to update that file
-2. git commit -m "update version 1.0”		commit file
-3. ´git status´					check the current status
-4. git push					upload changes
+| 1. git add index.html 			| to update that file |
+| 2. git commit -m "update version 1.0”		| commit file |
+| 3. ´git status´				| check the current status |
+| 4. git push					| upload changes |
 
 
 ## NODE.JS
 
-node -v		checks current version
+| Key/Command   | Description   | 
+| ------------- | ------------- |
+| node -v	| checks current version |
 
-EXPRESS
+### EXPRESS
 
-npm install express-generator -g	installs express generator
-express --view=pug myapp		generates basic app called 'myapp' (with pug as init for views)
-express --view=ejs myapp		generates basic app called 'myapp' (with ejs as init for views)
-cd myapp && npm install			cds and installs dependencies
-DEBUG=myapp:* npm start			run the app (only on mac & linux)
-set DEBUG=myapp:* & npm start		same for Windows
+| npm install express-generator -g	| installs express generator |
+| express --view=pug myapp		| generates basic app called 'myapp' (with pug as init for views) |
+| express --view=ejs myapp		| generates basic app called 'myapp' (with ejs as init for views) |
+| cd myapp && npm install		| cds and installs dependencies |
+| DEBUG=myapp:* npm start		| run the app (only on mac & linux) |
+| set DEBUG=myapp:* & npm start		| same for Windows |
 
 
